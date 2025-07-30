@@ -2,22 +2,45 @@ import { OrbitingCircles } from "./OrbitingCircles";
 
 export function Frameworks() {
   const skills = [
-    "auth0",
-    "blazor",
+    // Langages
+    "python",
+    "javascript", 
+    "java",
     "cplusplus",
     "csharp",
-    "css3",
+    "kotlin",
+    // Frameworks
+    "flask",
+    // "springboot",
+    // "angular",
+    "react",
+    "flutter",
     "dotnet",
     "dotnetcore",
-    "git",
+    // UI/Front-end
     "html5",
-    "javascript",
-    "microsoft",
-    "react",
-    "sqlite",
+    "css3",
+    "bootstrap",
     "tailwindcss",
-    "vitejs",
-    "wordpress",
+    // "mui",
+    // "electron",
+    // Bases de données
+    "mysql",
+    // "sqlite",
+    "firebase",
+    // "supabase",
+    // Outils
+    "git",
+    "github",
+    "docker",
+    "vscode",
+    "figma",
+    // "linux",
+    // IA & Data
+    "opencv",
+    "tensorflow",
+    // "ai",
+    // "n8n",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">

@@ -30,24 +30,24 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_99kid8p",         // Votre Service ID
+        "template_5k7b457",       // Remplacez par votre Template ID
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Najat ELAISSAOUI",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "najatelaissaoui347@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "3iaKaG4HnAsdM5HQx"         // Remplacez par votre Public Key
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
-      showAlertMessage("success", "You message has been sent!");
+      showAlertMessage("success", "Your message has been sent successfully!");
     } catch (error) {
       setIsLoading(false);
       console.log(error);
-      showAlertMessage("danger", "Somthing went wrong!");
+      showAlertMessage("danger", "Something went wrong. Please try again!");
     }
   };
   return (
@@ -64,8 +64,7 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Ready to build innovative web applications, mobile apps, or AI-powered solutions? Let's collaborate and bring your ideas to life with cutting-edge technology.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
@@ -78,7 +77,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Enter your full name"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +93,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="your.email@example.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
@@ -111,7 +110,7 @@ const Contact = () => {
               type="text"
               rows="4"
               className="field-input field-input-focus"
-              placeholder="Share your thoughts..."
+              placeholder="Tell me about your web, mobile, or AI project..."
               autoComplete="message"
               value={formData.message}
               onChange={handleChange}
@@ -122,7 +121,7 @@ const Contact = () => {
             type="submit"
             className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-lavender to-royal hover-animation"
           >
-            {!isLoading ? "Send" : "Sending..."}
+            {!isLoading ? "Send Message" : "Sending..."}
           </button>
         </form>
       </div>
