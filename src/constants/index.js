@@ -400,6 +400,10 @@ export const education = [
   }
 ];
 
+// Client reviews section - Commented out for PFE application
+// This section was replaced with "Academic & Technical Achievements" 
+// for better alignment with internship applications
+/*
 export const reviews = [
   {
     name: "Mohamed El Idrissi",
@@ -438,3 +442,4 @@ export const reviews = [
     img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
   },
 ];
+*/
