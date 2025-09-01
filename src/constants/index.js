@@ -153,14 +153,15 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "FaceCheck – Facial Recognition Attendance System",
+    title: "FaceCheck – AI-Powered Facial Recognition Attendance System",
     description:
-      "Innovative desktop application for employee attendance tracking using real-time facial recognition for secure and automated presence management with modern cross-platform interface.",
+      "Enterprise-grade desktop application for intelligent employee attendance tracking using advanced facial recognition technology with real-time processing and comprehensive security protocols.",
     subDescription: [
-      "Integrated OpenCV and Dlib for precise and secure facial detection and recognition.",
-      "Created a cross-platform desktop application with Electron for a smooth user experience.",
-      "Implemented a robust Flask backend with SQLite database for data management.",
-      "Ensured security and confidentiality of biometric data according to industrial standards.",
+      "Developed an advanced facial recognition system using OpenCV and Dlib with deep learning algorithms for maximum precision.",
+      "Created a cross-platform desktop application with Electron and modern responsive interface for optimal user experience.",
+      "Implemented a robust Flask backend with optimized SQLite database and RESTful APIs for real-time data management.",
+      "Integrated advanced biometric security measures compliant with GDPR standards and personal data protection.",
+      "Developed an analytics system with automated attendance reports and intelligent notifications for HR managers.",
     ],
     href: "https://github.com/Najat1elaissaoui/facecheck-attendance",
     logo: "",
@@ -169,7 +170,7 @@ export const myProjects = [
       {
         id: 1,
         name: "Electron",
-       
+        path: "",
       },
       {
         id: 2,
@@ -185,6 +186,114 @@ export const myProjects = [
         id: 4,
         name: "Python",
         path: "/assets/logos/python.svg",
+      },
+      {
+        id: 5,
+        name: "AI/ML",
+        path: "",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "EcommerceAI – Intelligent Multi-Channel E-commerce Agent",
+    description:
+      "Advanced AI-powered e-commerce platform with intelligent multi-channel agent system, automated workflows, and real-time analytics dashboard for comprehensive business management.",
+    subDescription: [
+      "Design of an intelligent multi-channel agent system for e-commerce with personalized automated responses according to customer context.",
+      "Development of a sophisticated n8n workflow for automatic reservation management, intelligent stock alerts and proactive notifications.",
+      "Creation of an advanced administrator dashboard with real-time analytics, dynamic KPIs and interactive data visualizations.",
+      "Implementation of Spring AI with LangGraph for contextual conversations and adaptive learning of customer preferences.",
+      "Integration of OpenAI for intelligent content generation, personalized recommendations and predictive trend analysis.",
+      "Microservices architecture with Spring Boot for scalability, Next.js for modern interface, and Python for advanced AI processing.",
+    ],
+    href: "https://github.com/Najat1elaissaoui/ecommerce-ai-agent",
+    logo: "",
+    image: "/assets/projects/ecom.png",
+    tags: [
+      {
+        id: 1,
+        name: "Spring Boot",
+        path: "",
+      },
+      {
+        id: 2,
+        name: "Spring AI",
+        path: "",
+      },
+      {
+        id: 3,
+        name: "Next.js",
+        path: "",
+      },
+      {
+        id: 4,
+        name: "n8n",
+        path: "/assets/logos/n8n.png",
+      },
+      {
+        id: 5,
+        name: "OpenAI",
+        path: "",
+      },
+      {
+        id: 6,
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
+      {
+        id: 7,
+        name: "LangGraph",
+        path: "",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "NexoBot – Intelligent Multimodal Agent",
+    description:
+      "Advanced chatbot with image generation/description capabilities and audio responses. Multimodal RAG architecture with specialized AI agents for comprehensive intelligent assistance.",
+    subDescription: [
+      "Developed an advanced multimodal chatbot with image generation and description capabilities using cutting-edge AI models.",
+      "Implemented audio response functionality for enhanced user interaction and accessibility.",
+      "Created a sophisticated multimodal RAG (Retrieval Augmented Generation) architecture for context-aware responses.",
+      "Integrated specialized AI agents for different modalities: text, image, and audio processing.",
+      "Built with enterprise-grade Spring Boot backend and modern Angular frontend for scalable performance.",
+      "Utilized PostgreSQL for robust data management and LangChain4J for advanced AI orchestration.",
+    ],
+    href: "https://github.com/Najat1elaissaoui/nexobot",
+    logo: "",
+    image: "/assets/projects/Nexobot.png",
+    tags: [
+      {
+        id: 1,
+        name: "Spring Boot",
+        path: "",
+      },
+      {
+        id: 2,
+        name: "Spring AI",
+        path: "",
+      },
+      {
+        id: 3,
+        name: "Angular",
+        path: "",
+      },
+      {
+        id: 4,
+        name: "LangChain4J",
+        path: "",
+      },
+      {
+        id: 5,
+        name: "PostgreSQL",
+        path: "",
+      },
+      {
+        id: 6,
+        name: "Multi-Modal RAG",
+        path: "",
       },
     ],
   },
@@ -217,51 +326,44 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Développeuse Freelance",
-    job: "Indépendante",
-    date: "2024 - Présent",
+    title: "Full Stack & AI Developer | Internship",
+    job: "Nexoverse (Remote)",
+    date: "June 2025 - August 2025",
     contents: [
-      "💼 Développement de solutions logicielles sur mesure pour clients variés (éducation, industrie, santé).",
-      "🚀 Création d'applications web et mobile avec technologies modernes (React, Flutter, .NET, Python).",
-      "🤖 Spécialisation en intelligence artificielle et computer vision pour projets innovants.",
-      "📱 Développement d'applications mobiles avec focus sur l'accessibilité et l'expérience utilisateur.",
-      "🎯 Gestion complète de projets : analyse des besoins, développement, déploiement et maintenance.",
+      "Development of a SaaS school management platform integrating an AI chatbot for automated assistance",
+      "Implementation of a RAG system to intelligently query student/teacher data",
+      "Agile/Scrum methodology with task management via Jira",
+      "Stack: Spring Boot, Spring AI, Angular, MySQL, JHipster, RAG, LLM",
     ],
   },
   {
-    title: "Développeuse Full Stack & IA",
-    job: "Nexoverse, Oujda",
-    date: "Juin 2025 - Juillet 2025",
+    title: "Full Stack & AI Developer | Internship",
+    job: "OCP Safi",
+    date: "July 2025 - August 2025",
     contents: [
-      "🤖 Créé une plateforme scolaire révolutionnaire intégrant un chatbot IA avancé utilisant RAG (Retrieval Augmented Generation) et OpenAI.",
-      "🏗️ Développé une architecture full-stack robuste avec Spring Boot pour le backend et Angular pour l'interface utilisateur moderne.",
-      "🧠 Implémenté Spring AI pour l'intégration seamless de l'intelligence artificielle dans le système éducatif.",
-      "📊 Conçu une base de données MySQL optimisée et utilisé JHipster pour accélérer le développement.",
-      "🔄 Mis en place des workflows CI/CD avec GitLab pour un déploiement automatisé et une collaboration efficace.",
+      "Design of an intelligent multi-channel agent system for e-commerce with automated responses",
+      "Development of an n8n workflow for automatic reservation management and stock alerts",
+      "Creation of an administrator dashboard with real-time analytics",
+      "Stack: Spring Boot, Spring AI, Next.js, n8n, OpenAI, Python, LangGraph",
     ],
   },
   {
-    title: "Développeuse Full Stack",
+    title: "Full Stack Developer | Internship",
     job: "Ciments du Maroc, Safi",
-    date: "Août 2024",
+    date: "August 2024",
     contents: [
-      "📦 Développé un système complet de gestion de stock avec tableau de bord analytique en temps réel.",
-      "🐍 Créé une API REST performante avec Flask pour la gestion des données et opérations backend.",
-      "⚛️ Conçu une interface utilisateur moderne et responsive avec React.js et Material UI.",
-      "📈 Implémenté des analytics avancés avec visualisations de données pour optimiser la gestion des stocks.",
-      "🗄️ Optimisé les performances avec SQLite et intégré le contrôle de version via GitHub.",
+      "Development of a stock management system with analytical dashboard",
+      "Implementation of data visualizations and business KPIs",
+      "Stack: Flask, React.js, SQLite, Material UI",
     ],
   },
   {
-    title: "Développeuse Desktop & Computer Vision",
-    job: "OCP, Safi",
-    date: "Juillet 2024",
+    title: "Desktop Developer | Internship",
+    job: "OCP Safi",
+    date: "July 2024",
     contents: [
-      "👤 Développé une application de pointage innovante avec reconnaissance faciale en temps réel pour les employés.",
-      "🔍 Intégré OpenCV et Dlib pour la détection et reconnaissance faciale précise et sécurisée.",
-      "💻 Créé une application desktop cross-platform avec Electron pour une expérience utilisateur fluide.",
-      "🌐 Implémenté un backend Flask robuste avec base de données SQLite pour la gestion des données.",
-      "🔒 Assuré la sécurité et la confidentialité des données biométriques selon les standards industriels.",
+      "Intelligent attendance application with real-time facial recognition",
+      "Stack: OpenCV, Dlib, Electron, Flask, SQLite",
     ],
   },
   {
@@ -269,10 +371,10 @@ export const experiences = [
     job: "OCP, Safi",
     date: "Juillet 2022",
     contents: [
-      "🧪 Effectué des analyses qualité rigoureuses des produits finis et matières premières en laboratoire.",
-      "📋 Maîtrisé les protocoles d'analyse chimique et les standards de qualité industriels.",
-      "📊 Contribué à l'amélioration des processus de contrôle qualité et documentation technique.",
-      "🔬 Développé une expertise en instrumentation analytique et techniques de laboratoire avancées.",
+      "Performed rigorous quality analyses of finished products and raw materials in laboratory",
+      "Mastered chemical analysis protocols and industrial quality standards",
+      "Contributed to improving quality control processes and technical documentation",
+      "Developed expertise in analytical instrumentation and advanced laboratory techniques",
     ],
   },
 ];
@@ -300,34 +402,39 @@ export const education = [
 
 export const reviews = [
   {
-    name: "Youssef ",
+    name: "Mohamed El Idrissi",
+    username: "@mohamed_ecom_ceo",
+    body: "Najat revolutionized our e-commerce with her multi-channel AI agent. Sales increased by 40% thanks to intelligent recommendations and automated workflows!",
+    img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+  },
+  {
+    name: "Youssef",
     username: "@youssef_dev",
     body: "Najat developed an outstanding mobile app for our startup. Her expertise in Flutter and AI integration exceeded our expectations. Highly professional!",
     img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "Ahmed ",
+    name: "Ahmed",
     username: "@ahmed_cto",
     body: "Najat's full-stack development skills are impressive. She built our educational platform with React and Flask - clean code and perfect execution.",
-    img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "Sarah El ",
+    name: "Sarah El Mansouri",
     username: "@sarah_pm",
     body: "Professional, talented, and dedicated. Najat delivered our school management system on time with all requested features. Excellent collaboration!",
     img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "Omar ",
+    name: "Omar",
     username: "@omar_startup",
     body: "Najat's AI expertise helped us create an innovative emotion-based music app. Her technical skills and creativity make her stand out.",
-    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
   },
   {
-    name: "Khadija ",
+    name: "Khadija",
     username: "@khadija_ux",
     body: "Amazing developer! Najat created a beautiful and accessible mobile app for visually impaired users. Her attention to detail is phenomenal.",
     img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
   },
-  
 ];
